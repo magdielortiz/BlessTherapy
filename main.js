@@ -9,6 +9,8 @@ var myFullpage = new fullpage('#fullpage', {
   scrollBar: false,
   easing: 'easeInOutCubic',
   easingcss3: 'ease',
+  loopBottom: false,
+  loopTop: false,
   loopHorizontal: true,
   continuousVertical: true,
   interlockedSlides: false,
@@ -39,9 +41,9 @@ var myFullpage = new fullpage('#fullpage', {
   responsiveSlides: false,
   parallax: false,
   parallaxOptions: {
-  type: 'reveal',
-  percentage: 62,
-  property: 'translate',
+    type: 'reveal',
+    percentage: 62,
+    property: 'translate',
   },
 
   //Custom selectors
