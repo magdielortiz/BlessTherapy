@@ -1,4 +1,6 @@
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 body {
   font-family: 'Georgia', serif;
@@ -62,32 +64,7 @@ section {
   padding: 0px 75px;
 }
 
-.full-height {
-  height: 100vh;
-}
-
-.red {
-  background-color: #daede0;
-}
-
-.blue {
-  background-color: #ffecb9;
-}
-
-.green {
-  background-color: #daede0;
-}
-
-.light-red {
-  background-color: #f9bbb1;
-}
-
-.centered {
-  margin: 0px auto;
-}
-
-div.intro,
-.fullscreen {
+div.intro, .fullscreen {
   height: 95vh;
   display: flex;
   align-items: center;
@@ -122,64 +99,61 @@ div.about h1 {
   padding: 0;
 }
 
-
 .fullscreen {
   background-image: url(Images/iStock-510019788.jpg);
   background-size: cover;
   background-position: top center;
   height: 100vh;
-  }
+}
 
-  .fullscreen-two {
-    background-image: url(Images/girl-computer.jpg);
-    background-size: cover;
-    background-position: top center;
-    height: 100vh;
-    }
+.fullscreen-two {
+  background-image: url(Images/girl-computer.jpg);
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+}
 
-  .sign-up {
-   display: flex;
-   border-bottom: solid 2px #ff675d;
-   padding-bottom: 10px;
-  }
+.sign-up {
+  display: flex;
+  border-bottom: solid 2px #ff675d;
+  padding-bottom: 10px;
+}
 
-  input {
-    background: none;
-    border: none;
-    font-size: 18px;
-  }
+input {
+  background: none;
+  border: none;
+  font-size: 18px;
+}
 
-  input:focus {
-   outline: none !important;
-  }
+input:focus {
+  outline: none !important;
+}
 
-  .email-input {
-    flex: 1;
-  }
+.email-input {
+  flex: 1;
+}
 
-  .form {
-    width: 100%;
-    margin: 25px 0px;
-  }
+.form {
+  width: 100%;
+  margin: 25px 0px;
+}
 
-  .services {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    height: 90vh;
-  }
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  height: 90vh;
+}
 
-  .left,
-  .right {
-    width: 33vw;
-    margin-left: 25px;
-  }
+.left, .right {
+  width: 33vw;
+  margin-left: 25px;
+}
 
-  .subscribe {
-    width: 45%;
-
-  }
+.subscribe {
+  width: 45%;
+}
 
 footer {
   margin: 150px 75px 0px 75px;
@@ -207,7 +181,6 @@ footer nav a {
 /**Tablet Version**/
 
 @media (max-width: 800px) {
-
   header {
     margin-left: 35px;
     margin-right: 35px;
@@ -220,7 +193,6 @@ footer nav a {
 /**Iphone**/
 
 @media (max-width: 465.5px) {
-
   body {
     font-size: 15px;
     line-height: 1.5;
@@ -241,72 +213,53 @@ footer nav a {
     animation-fill-mode: forwards;
     z-index: 3;
   }
-
   header h1 img {
     width: 150px;
   }
-
   header nav a {
     display: none;
   }
-
   h1 {
     font-size: 8vw;
     line-height: 1.2em;
   }
-
   h1 br {
     display: none;
-}
-
+  }
   p {
     font-family: 'Graphik-Regular', sans-serif;
     font-size: 1em;
     color: #ff675d;
   }
-
   p br {
     display: none;
-}
-
+  }
   .content {
     padding: 0px 25px;
   }
-
   .intro .content img {
     width: 10vw;
   }
-
   .services {
     display: inline;
     padding-bottom: 50px;
     text-align: center;
   }
-
-  .left,
-  .right {
+  .left, .right {
     margin-left: 25px;
-    margin-right: 25px
-    margin-top: 30px;
+    margin-right: 25px margin-top: 30px;
     width: 85%;
   }
-
   .list {
     padding-left: 25px;
     padding-right: 25px;
   }
-
   .third {
     padding-top: 130px;
   }
-
   .subscribe {
     width: 100%;
   }
-
-
-
-
   footer {
     margin: 150px 25px 0px 25px;
     display: flex;
@@ -322,7 +275,6 @@ footer nav a {
     animation-fill-mode: forwards;
     opacity: 0;
   }
-
 }
 
 @keyframes fadeIn {
@@ -354,7 +306,6 @@ footer nav a {
 @keyframes fadeIn3 {
   0% {
     opacity: 0;
-
   }
   50% {
     transform: translate(0);
@@ -378,13 +329,13 @@ footer nav a {
 }
 
 @keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-10px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
