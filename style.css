@@ -1,0 +1,390 @@
+html { overflow-y: scroll; }
+
+body {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ff675d;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 25px;
+  left: 0;
+  right: 0;
+  margin-left: 75px;
+  margin-right: 75px;
+  overflow: hidden;
+  opacity: 0;
+  display: flex;
+  justify-content: space-between;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: .4s;
+  animation-fill-mode: forwards;
+  z-index: 3;
+}
+
+header nav {
+  margin-top: 9px;
+}
+
+header nav a {
+  font-family: 'Graphik', serif;
+  font-size: 15px;
+  color: #ffffff;
+  background: #ff675d;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+header h1 img {
+  width: 200px;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 3vw;
+  line-height: 1.2em;
+}
+
+p {
+  font-family: 'Graphik-Regular', sans-serif;
+  font-size: 1em;
+  color: #ff675d;
+}
+
+section {
+  padding: 0px 75px;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.red {
+  background-color: #daede0;
+}
+
+.blue {
+  background-color: #ffecb9;
+}
+
+.green {
+  background-color: #daede0;
+}
+
+.light-red {
+  background-color: #f9bbb1;
+}
+
+.centered {
+  margin: 0px auto;
+}
+
+div.intro,
+.fullscreen {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation-name: fadeIn2;
+  animation-duration: 1s;
+  animation-delay: .6s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.intro .content img {
+  width: 3vw;
+  animation-name: float;
+  animation-duration: 2s;
+  animation-delay: .6s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+div.about h1 {
+  margin: 0
+}
+
+.second {
+  padding: 0;
+}
+
+.fourth {
+  padding: 0;
+}
+
+
+.fullscreen {
+  background-image: url(Images/iStock-510019788.jpg);
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+  }
+
+  .fullscreen-two {
+    background-image: url(Images/girl-computer.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    }
+
+  .sign-up {
+   display: flex;
+   border-bottom: solid 2px #ff675d;
+   padding-bottom: 10px;
+  }
+
+  input {
+    background: none;
+    border: none;
+    font-size: 18px;
+  }
+
+  input:focus {
+   outline: none !important;
+  }
+
+  .email-input {
+    flex: 1;
+  }
+
+  .form {
+    width: 100%;
+    margin: 25px 0px;
+  }
+
+  .services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 90vh;
+  }
+
+  .left,
+  .right {
+    width: 33vw;
+    margin-left: 25px;
+  }
+
+  .subscribe {
+    width: 45%;
+
+  }
+
+footer {
+  margin: 150px 75px 0px 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  animation-name: fadeIn4;
+  animation-duration: 1s;
+  animation-delay: .6s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+footer nav a {
+  font-family: 'Graphik-Regular', sans-serif;
+  font-size: 1em;
+  color: #ff675d;
+  text-decoration: none;
+}
+
+/**Tablet Version**/
+
+@media (max-width: 800px) {
+
+  header {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  header h1 img {
+    width: 250px;
+  }
+}
+
+/**Iphone**/
+
+@media (max-width: 465.5px) {
+
+  body {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  header {
+    position: fixed;
+    top: 15px;
+    left: 0;
+    right: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow: hidden;
+    display: inline-block;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: .4s;
+    animation-fill-mode: forwards;
+    z-index: 3;
+  }
+
+  header h1 img {
+    width: 150px;
+  }
+
+  header nav a {
+    display: none;
+  }
+
+  h1 {
+    font-size: 8vw;
+    line-height: 1.2em;
+  }
+
+  h1 br {
+    display: none;
+}
+
+  p {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-size: 1em;
+    color: #ff675d;
+  }
+
+  p br {
+    display: none;
+}
+
+  .content {
+    padding: 0px 25px;
+  }
+
+  .intro .content img {
+    width: 10vw;
+  }
+
+  .services {
+    display: inline;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .left,
+  .right {
+    margin-left: 25px;
+    margin-right: 25px
+    margin-top: 30px;
+    width: 85%;
+  }
+
+  .list {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .third {
+    padding-top: 130px;
+  }
+
+  .subscribe {
+    width: 100%;
+  }
+
+
+
+
+  footer {
+    margin: 150px 25px 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    animation-name: fadeIn4;
+    animation-duration: 1s;
+    animation-delay: .6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+
+  }
+  50% {
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn4 {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
