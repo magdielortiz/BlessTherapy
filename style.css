@@ -146,7 +146,8 @@ input:focus {
   height: 90vh;
 }
 
-.left, .right {
+.left,
+.right {
   width: 33vw;
   margin-left: 25px;
 }
@@ -275,7 +276,7 @@ footer nav a {
   }
   .left, .right {
     margin-left: 25px;
-    margin-right: 25px margin-top: 30px;
+    margin-right: 25px;
     width: 85%;
   }
   .list {
