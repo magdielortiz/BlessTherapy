@@ -185,10 +185,38 @@ footer nav a {
     margin-left: 35px;
     margin-right: 35px;
   }
+
   header h1 img {
-    width: 250px;
+    width: 200px;
   }
+
+  h1 {
+   font-size: 5vw;
+  }
+
+  header nav a {
+    font-size: 14px;
+    color: #ffffff;
+    background: #ff675d;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
+  .intro .content img {
+    width: 6vw;
+  }
+
+  .left, .right {
+    width: 45vw;
 }
+
+.subscribe {
+    width: 75%;
+}
+}
+
+
 
 /**Iphone**/
 
