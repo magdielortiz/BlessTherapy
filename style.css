@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: 'Georgia', serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   color: #ff675d;
   padding: 0;
@@ -58,6 +58,7 @@ p {
   font-family: 'Graphik-Regular', sans-serif;
   font-size: 1em;
   color: #ff675d;
+  margin-top: 20px;
 }
 
 section {
@@ -85,6 +86,7 @@ div.intro, .fullscreen {
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  padding-top: 10px;
 }
 
 div.about h1 {
