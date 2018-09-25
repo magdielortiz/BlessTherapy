@@ -1,12 +1,4 @@
 @font-face {
-  font-family: 'MillerText-Bold';
-  src: url('Fonts/Miller-textbold-webfont.woff2') format('woff2'),
-       url('Fonts/Miller-textbold-webfont.woff') format('woff'),
-       url('Fonts/Miller-textbold-webfont.ttf') format('truetype');
-
-}
-
-@font-face {
   font-family: 'Graphik-Regular';
   src: url('Fonts/Graphik-regular-webfont.woff2') format('woff2'),
        url('Fonts/Graphik-regular-webfont.woff') format('woff'),

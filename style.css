@@ -3,7 +3,9 @@ html {
 }
 
 body {
-  font-family: 'Georgia', serif;
+  font-family: "Miller Text Bd";
+  font-style: Normal;
+  font-weight: Normal;
   font-size: 18px;
   line-height: 1.5;
   color: #ff675d;
@@ -50,8 +52,9 @@ header h1 img {
 h1 {
   margin-top: 0px;
   margin-bottom: 20px;
-  font-size: 3vw;
+  font-size: 3.25vw;
   line-height: 1.2em;
+  letter-spacing: .5px;
 }
 
 p {
@@ -102,16 +105,23 @@ div.about h1 {
 }
 
 .fullscreen {
-  background-image: url(Images/iStock-510019788.jpg);
+  background-image: url(Images/AdobeStock_8653194.jpg);
   background-size: cover;
   background-position: top center;
   height: 100vh;
 }
 
 .fullscreen-two {
-  background-image: url(Images/girl-computer.jpg);
+  background-image: url(Images/AdobeStock_116965668.jpg);
   background-size: cover;
   background-position: top center;
+  height: 100vh;
+}
+
+.fullscreen-three {
+  background-image: url(Images/AdobeStock_203256080.jpg);
+  background-size: cover;
+  background-position: bottom center;
   height: 100vh;
 }
 
