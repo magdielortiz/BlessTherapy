@@ -150,12 +150,16 @@ input:focus {
 
 .left,
 .right {
-  width: 33vw;
+  width: 35vw;
   margin-left: 25px;
 }
 
 .subscribe {
   width: 45%;
+}
+
+.selected {
+  opacity: .5;
 }
 
 footer {
