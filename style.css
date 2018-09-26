@@ -91,6 +91,10 @@ div.intro, .fullscreen {
   padding-top: 10px;
 }
 
+.intro {
+  margin: 0 75px;
+}
+
 div.about h1 {
   margin: 0
 }
@@ -161,7 +165,7 @@ input:focus {
 
 .left,
 .right {
-  width: 45vw;
+  width: 30vw;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
@@ -169,10 +173,6 @@ input:focus {
 
 .subscribe {
   width: 45%;
-}
-
-.selected {
-  opacity: .5;
 }
 
 footer {
@@ -231,7 +231,7 @@ footer nav a {
     width: 45vw;
 }
 
-.subscribe {
+  .subscribe {
     width: 75%;
 }
 }
@@ -244,6 +244,9 @@ footer nav a {
   body {
     font-size: 15px;
     line-height: 1.5;
+    font-family: "Miller Text Bd";
+    font-style: Normal;
+    font-weight: Normal;
   }
   header {
     position: fixed;
@@ -294,8 +297,8 @@ footer nav a {
     text-align: center;
   }
   .left, .right {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 85%;
   }
   .list {
