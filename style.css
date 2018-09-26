@@ -161,13 +161,14 @@ input:focus {
 
 .left,
 .right {
-  width: 50vw;
-
+  width: 45vw;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
 }
 
 .subscribe {
-  width: 40%;
+  width: 45%;
 }
 
 .selected {
