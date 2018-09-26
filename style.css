@@ -54,7 +54,6 @@ h1 {
   margin-bottom: 20px;
   font-size: 3.25vw;
   line-height: 1.2em;
-  letter-spacing: .5px;
 }
 
 p {
@@ -156,16 +155,19 @@ input:focus {
   justify-content: center;
   text-align: left;
   height: 90vh;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 .left,
 .right {
-  width: 35vw;
-  margin-left: 25px;
+  width: 50vw;
+
+  text-align: center;
 }
 
 .subscribe {
-  width: 45%;
+  width: 35%;
 }
 
 .selected {
