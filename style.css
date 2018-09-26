@@ -175,6 +175,13 @@ input:focus {
   width: 45%;
 }
 
+.subscribe nav a {
+  font-family: 'Graphik-Regular', sans-serif;
+  font-size: 18px;
+  color: #ff675d;
+  text-decoration: none;
+}
+
 footer {
   margin: 150px 75px 0px 75px;
   display: flex;
@@ -285,12 +292,19 @@ footer nav a {
   p br {
     display: none;
   }
+
   .content {
     padding: 0px 25px;
   }
+
+  .intro {
+    margin: 0;
+  }
+
   .intro .content img {
     width: 10vw;
   }
+
   .services {
     display: inline;
     padding-bottom: 50px;
