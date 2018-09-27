@@ -22,11 +22,19 @@ header {
   margin-right: 75px;
   overflow: hidden;
   opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
   animation-duration: 2s;
+  -webkit-animation-delay: .4s;
   animation-delay: .4s;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 3;
 }
@@ -69,24 +77,40 @@ section {
 
 div.intro, .fullscreen {
   height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
+  -webkit-animation-name: fadeIn2;
   animation-name: fadeIn2;
+  -webkit-animation-duration: 1s;
   animation-duration: 1s;
+  -webkit-animation-delay: .6s;
   animation-delay: .6s;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 
 .intro .content img {
   width: 3vw;
+  -webkit-animation-name: float;
   animation-name: float;
+  -webkit-animation-duration: 2s;
   animation-duration: 2s;
+  -webkit-animation-delay: .6s;
   animation-delay: .6s;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
   padding-top: 10px;
 }
@@ -129,6 +153,8 @@ div.about h1 {
 }
 
 .sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   border-bottom: solid 2px #ff675d;
   padding-bottom: 10px;
@@ -154,8 +180,14 @@ input:focus {
 }
 
 .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: left;
   height: 90vh;
@@ -163,8 +195,7 @@ input:focus {
   margin-right: 75px;
 }
 
-.left,
-.right {
+.left, .right {
   width: 30vw;
   padding-left: 20px;
   padding-right: 20px;
@@ -184,16 +215,26 @@ input:focus {
 
 footer {
   margin: 150px 75px 0px 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: fixed;
   bottom: 20px;
   left: 0;
   right: 0;
+  -webkit-animation-name: fadeIn4;
   animation-name: fadeIn4;
+  -webkit-animation-duration: 1s;
   animation-duration: 1s;
+  -webkit-animation-delay: .6s;
   animation-delay: .6s;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -212,15 +253,12 @@ footer nav a {
     margin-left: 35px;
     margin-right: 35px;
   }
-
   header h1 img {
     width: 200px;
   }
-
   h1 {
-   font-size: 5vw;
+    font-size: 5vw;
   }
-
   header nav a {
     font-size: 14px;
     color: #ffffff;
@@ -229,21 +267,16 @@ footer nav a {
     border-radius: 4px;
     text-decoration: none;
   }
-
   .intro .content img {
     width: 6vw;
   }
-
   .left, .right {
     width: 45vw;
-}
-
+  }
   .subscribe {
     width: 75%;
+  }
 }
-}
-
-
 
 /**Iphone**/
 
@@ -262,9 +295,13 @@ footer nav a {
     overflow: hidden;
     display: inline-block;
     opacity: 0;
+    -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
+    -webkit-animation-duration: 2s;
     animation-duration: 2s;
+    -webkit-animation-delay: .4s;
     animation-delay: .4s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     z-index: 3;
   }
@@ -289,19 +326,15 @@ footer nav a {
   p br {
     display: none;
   }
-
   .content {
     padding: 0px 25px;
   }
-
   .intro {
     margin: 0;
   }
-
   .intro .content img {
     width: 10vw;
   }
-
   .services {
     display: inline;
     padding-bottom: 50px;
@@ -324,27 +357,69 @@ footer nav a {
   }
   footer {
     margin: 150px 25px 0px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position: fixed;
     bottom: 15px;
     left: 0;
     right: 0;
+    -webkit-animation-name: fadeIn4;
     animation-name: fadeIn4;
+    -webkit-animation-duration: 1s;
     animation-duration: 1s;
+    -webkit-animation-delay: .6s;
     animation-delay: .6s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+  50% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
   }
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
+    -webkit-transform: translateY(-50px);
     transform: translateY(-50px);
   }
   50% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-500px);
+    transform: translateX(-500px);
+  }
+  50% {
+    -webkit-transform: translate(0);
     transform: translate(0);
   }
   100% {
@@ -355,9 +430,24 @@ footer nav a {
 @keyframes fadeIn2 {
   0% {
     opacity: 0;
+    -webkit-transform: translateX(-500px);
     transform: translateX(-500px);
   }
   50% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translate(0);
     transform: translate(0);
   }
   100% {
@@ -370,6 +460,22 @@ footer nav a {
     opacity: 0;
   }
   50% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn4 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+  50% {
+    -webkit-transform: translate(0);
     transform: translate(0);
   }
   100% {
@@ -380,9 +486,11 @@ footer nav a {
 @keyframes fadeIn4 {
   0% {
     opacity: 0;
+    -webkit-transform: translateY(50px);
     transform: translateY(50px);
   }
   50% {
+    -webkit-transform: translate(0);
     transform: translate(0);
   }
   100% {
@@ -390,14 +498,32 @@ footer nav a {
   }
 }
 
-@keyframes float {
+@-webkit-keyframes float {
   0% {
+    -webkit-transform: translatey(0px);
     transform: translatey(0px);
   }
   50% {
+    -webkit-transform: translatey(-10px);
     transform: translatey(-10px);
   }
   100% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-10px);
+    transform: translatey(-10px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
     transform: translatey(0px);
   }
 }
