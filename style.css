@@ -171,6 +171,19 @@ input:focus {
   text-align: center;
 }
 
+.arrow img {
+  width: 3vw;
+  animation-name: float;
+  animation-duration: 2s;
+  animation-delay: .6s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+  bottom: 10px;
+  left: 48.5vw;
+}
+
 .subscribe {
   width: 45%;
 }
@@ -321,6 +334,12 @@ footer nav a {
   }
   .subscribe {
     width: 100%;
+  }
+
+  .arrow img {
+    width: 10vw;
+    bottom: 50px;
+    left: 45vw;
   }
   footer {
     margin: 150px 25px 0px 25px;
