@@ -51,7 +51,7 @@ h1 {
   font-family: "Miller Text Bd";
   margin-top: 0px;
   margin-bottom: 20px;
-  font-size: 3.25vw;
+  font-size: calc(2.5vw + 18px);
   line-height: 1.2em;
 }
 
@@ -73,7 +73,7 @@ h3 {
 
 p {
   font-family: "proxima-nova",sans-serif;
-  font-size: 1em;
+  font-size: calc(.10vw + 18px);
   color: #ff675d;
   margin-top: 20px;
 }
@@ -85,8 +85,7 @@ p {
 .services,
 .benefits {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: top;
 }
 
 .tittle {
@@ -220,6 +219,16 @@ input:focus {
   margin-right: auto;
 }
 
+.contact {
+  display: flex;
+  align-items: top;
+}
+
+.about,
+.list {
+  width: 50%;
+}
+
 footer {
   margin: 150px 75px 0px 75px;
   display: flex;
@@ -238,7 +247,7 @@ footer {
 
 footer nav a {
   font-family: "proxima-nova",sans-serif;
-  font-size: 1em;
+  font-size: calc(.10vw + 18px);
   color: #ff675d;
   text-decoration: none;
 }
