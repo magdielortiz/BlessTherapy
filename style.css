@@ -78,8 +78,32 @@ p {
   margin-top: 20px;
 }
 
-section {
-  padding: 0px 75px;
+.container {
+  margin: 0px 75px;
+}
+
+.services,
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tittle {
+  margin-top: 75px;
+}
+
+.left,
+.middle,
+.right {
+  width: 600px;
+}
+
+.one,
+.two,
+.three,
+.four {
+  width: 400px;
 }
 
 div.intro, .fullscreen {
@@ -168,16 +192,6 @@ input:focus {
   margin: 25px 0px;
 }
 
-.services {
-
-}
-
-.left,
-.right,
-.middle {
-
-}
-
 .arrow img {
   width: 3vw;
   animation-name: float;
@@ -190,7 +204,7 @@ input:focus {
 }
 
 .subscribe {
-  width: 45%;
+
 }
 
 .subscribe nav a {
