@@ -3,11 +3,9 @@ html {
 }
 
 body {
-  font-family: 'Graphik', serif;
-  font-style: Normal;
-  font-weight: Normal;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
   color: #ff675d;
   padding: 0;
   margin: 0;
@@ -36,7 +34,7 @@ header nav {
 }
 
 header nav a {
-  font-family: 'Graphik', serif;
+  font-family: "proxima-nova",sans-serif;
   font-size: 15px;
   color: #ffffff;
   background: #ff675d;
@@ -61,12 +59,20 @@ h2 {
   font-family: "Miller Text Bd";
   margin-top: 0px;
   margin-bottom: 20px;
-  font-size: 2.5vw;
+  font-size: 3vw;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-family: "Miller Text Bd";
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 1.5vw;
   line-height: 1.2em;
 }
 
 p {
-  font-family: 'Graphik-Regular', sans-serif;
+  font-family: "proxima-nova",sans-serif;
   font-size: 1em;
   color: #ff675d;
   margin-top: 20px;
@@ -163,19 +169,13 @@ input:focus {
 }
 
 .services {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: left;
-  height: 100vh;
-  margin-left: 75px;
-  margin-right: 75px;
+
 }
 
 .left,
 .right,
 .middle {
-  width: 30vw;
+
 }
 
 .arrow img {
@@ -194,10 +194,16 @@ input:focus {
 }
 
 .subscribe nav a {
-  font-family: 'Graphik-Regular', sans-serif;
+  font-family: "proxima-nova",sans-serif;
   font-size: 18px;
   color: #ff675d;
   text-decoration: none;
+}
+
+.intro .content p {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
@@ -217,7 +223,7 @@ footer {
 }
 
 footer nav a {
-  font-family: 'Graphik-Regular', sans-serif;
+  font-family: "proxima-nova",sans-serif;
   font-size: 1em;
   color: #ff675d;
   text-decoration: none;
@@ -253,7 +259,7 @@ footer nav a {
   }
 
   .left, .right {
-    width: 45vw;
+
 }
 
   .subscribe {
@@ -300,7 +306,7 @@ footer nav a {
     display: none;
   }
   p {
-    font-family: 'Graphik-Regular', sans-serif;
+    font-family: "proxima-nova",sans-serif;
     font-size: 1em;
     color: #ff675d;
   }
@@ -321,14 +327,10 @@ footer nav a {
   }
 
   .services {
-    display: inline;
-    padding-bottom: 50px;
-    text-align: center;
+
   }
   .left, .right {
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 85%;
+
   }
   .list {
     padding-left: 25px;
