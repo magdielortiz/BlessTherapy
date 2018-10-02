@@ -3,10 +3,10 @@ html {
 }
 
 body {
-  font-family: "Miller Text Bd";
+  font-family: 'Graphik', serif;
   font-style: Normal;
   font-weight: Normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   color: #ff675d;
   padding: 0;
@@ -50,9 +50,18 @@ header h1 img {
 }
 
 h1 {
+  font-family: "Miller Text Bd";
   margin-top: 0px;
   margin-bottom: 20px;
   font-size: 3.25vw;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-family: "Miller Text Bd";
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 2.5vw;
   line-height: 1.2em;
 }
 
@@ -158,17 +167,15 @@ input:focus {
   align-items: center;
   justify-content: center;
   text-align: left;
-  height: 90vh;
+  height: 100vh;
   margin-left: 75px;
   margin-right: 75px;
 }
 
 .left,
-.right {
-  width: 35vw;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
+.right,
+.middle {
+  width: 30vw;
 }
 
 .arrow img {
@@ -179,9 +186,7 @@ input:focus {
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  position: absolute;
-  bottom: 10px;
-  left: 48.5vw;
+  margin-left: 40px;
 }
 
 .subscribe {
@@ -201,7 +206,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  bottom: 20px;
+  bottom: 10px;
   left: 0;
   right: 0;
   animation-name: fadeIn4;
