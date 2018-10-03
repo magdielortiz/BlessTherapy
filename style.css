@@ -97,25 +97,27 @@ p {
 .services,
 .benefits {
   display: flex;
+
   align-items: top;
 }
 
 .tittle {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .left,
 .middle,
 .right {
-  width: 500px;
-  margin:5px;
+  width: 410px;
+  margin-right: 100px;
 }
 
 .one,
 .two,
 .three,
 .four {
-  width: 400px;
+  width: 300px;
+  margin-right: 100px;
 }
 
 div.intro, .fullscreen {
