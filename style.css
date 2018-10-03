@@ -102,22 +102,23 @@ p {
 }
 
 .tittle {
-  margin-top: 50px;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 .left,
 .middle,
 .right {
-  width: 410px;
-  margin-right: 100px;
+  width: 510px;
+  margin-right: 50px;
 }
 
 .one,
 .two,
 .three,
 .four {
-  width: 300px;
-  margin-right: 100px;
+  width: 400px;
+  margin-right: 50px;
 }
 
 div.intro, .fullscreen {
@@ -246,10 +247,6 @@ input:focus {
 .list {
   width: 40%;
   margin-left: 50px;
-}
-
-.benefits p {
-  font-size: calc(.05vw + 15px);
 }
 
 footer {
