@@ -1,16 +1,5 @@
 var myFullpage = new fullpage('#fullpage', {
 
-  //Navigation
-	menu: '#menu',
-	lockAnchors: false,
-
-	navigation: false,
-	navigationPosition: 'right',
-	navigationTooltips: ['firstSlide', 'secondSlide'],
-	showActiveTooltip: false,
-	slidesNavigation: false,
-	slidesNavPosition: 'bottom',
-
   //Scrolling
   css3: true,
   scrollingSpeed: 700,
