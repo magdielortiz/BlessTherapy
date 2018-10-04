@@ -463,6 +463,15 @@ footer nav a {
     display: none
   }
 
+  .about {
+    display: none;
+  }
+
+  .list {
+    margin-left: 0px;
+    padding: 0px;
+}
+
 
 
 
