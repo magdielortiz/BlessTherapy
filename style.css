@@ -338,7 +338,7 @@ footer nav a {
   }
 
   header h1 img {
-    width: 150px;
+    width: 125px;
   }
 
   header nav a {
@@ -346,20 +346,31 @@ footer nav a {
   }
 
   h1 {
-    font-size: 8vw;
+    font-size: 24px;
     line-height: 1em;
     width: 100%;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
   }
 
-  h1 br {
-    display: none;
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 
   p {
     font-family: "proxima-nova",sans-serif;
-    font-size: 1em;
+    font-size: 16px;
     color: #ff675d;
   }
 
@@ -378,6 +389,7 @@ footer nav a {
 
   .intro .content p {
     width: 100%;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
 }
@@ -423,11 +435,6 @@ footer nav a {
     width: 100%;
   }
 
-  h3 {
-    font: 18px;
-    margin: 0;
-  }
-
   p {
     margin-top: 10px;
   }
@@ -435,7 +442,30 @@ footer nav a {
   .tittle {
     margin-top: 40px;
     margin-bottom: 20px;
-}
+  }
+
+  .benefits,
+  .services {
+    display: inline;
+  }
+
+  .benefits {
+    width: 100%;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four {
+    width: 100%;
+  }
+
+  .legal,
+  .questions {
+    display: none
+  }
+
+
 
 
 
@@ -454,6 +484,10 @@ footer nav a {
     animation-delay: .6s;
     animation-fill-mode: forwards;
     opacity: 0;
+  }
+
+  footer nav a {
+    font-size: 13.5px;
   }
 }
 
