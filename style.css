@@ -297,17 +297,20 @@ footer nav a {
     text-decoration: none;
   }
 
-  .intro .content img {
-    width: 6vw;
+  .container {
+    margin: 0 35px;
   }
 
-  .left, .right {
+  .services,
+  .benefits {
+    display: inline;
+  }
 
-}
+  footer {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
 
-  .subscribe {
-    width: 75%;
-}
 }
 
 
