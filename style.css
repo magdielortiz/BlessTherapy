@@ -297,6 +297,10 @@ footer nav a {
     text-decoration: none;
   }
 
+  .intro .content p {
+    width: 100%;
+  }
+
   .container {
     margin: 0 35px;
   }
@@ -305,6 +309,23 @@ footer nav a {
   .benefits {
     display: inline;
   }
+
+  .contact {
+    display: inline;
+  }
+
+  .about,
+  .list {
+    width: 100%;
+  }
+
+  .list {
+    margin: 0;
+  }
+
+  .arrow img {
+    width: 40px;
+}
 
   footer {
     margin-left: 35px;

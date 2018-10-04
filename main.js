@@ -46,10 +46,6 @@ var myFullpage = new fullpage('#fullpage', {
     property: 'translate',
   },
 
-  //Custom selectors
-  sectionSelector: '.section',
-  slideSelector: '.slide',
-
   lazyLoading: true,
 
   //events
