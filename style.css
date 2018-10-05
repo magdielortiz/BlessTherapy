@@ -370,7 +370,7 @@ footer nav a {
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 25px;
     line-height: 1em;
     width: 80%;
     text-align: left;
@@ -507,7 +507,7 @@ footer nav a {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    bottom: 5px;
+    bottom: 0px;
     left: 0;
     right: 0;
     animation-name: fadeIn4;
