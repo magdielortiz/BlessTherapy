@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "proxima-nova",sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 16.5px;
   line-height: 1.75;
   color: #ff675d;
@@ -20,11 +20,19 @@ header {
   margin-right: 75px;
   overflow: hidden;
   opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
   animation-duration: 2s;
+  -webkit-animation-delay: .4s;
   animation-delay: .4s;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 3;
 }
@@ -34,7 +42,7 @@ header nav {
 }
 
 header nav a {
-  font-family: "proxima-nova",sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 15px;
   color: #ffffff;
   background: #ff675d;
@@ -84,7 +92,7 @@ h4 {
 }
 
 p {
-  font-family: "proxima-nova",sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: calc(.05vw + 16.5px);
   color: #ff675d;
   margin-top: 20px;
@@ -94,10 +102,12 @@ p {
   margin: 0px 75px;
 }
 
-.services,
-.benefits {
+.services, .benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-
+  -webkit-box-align: top;
+  -ms-flex-align: top;
   align-items: top;
 }
 
@@ -106,41 +116,52 @@ p {
   margin-bottom: 50px;
 }
 
-.left,
-.middle,
-.right {
+.left, .middle, .right {
   width: 510px;
   margin-right: 50px;
 }
 
-.one,
-.two,
-.three,
-.four {
+.one, .two, .three, .four {
   width: 400px;
   margin-right: 50px;
 }
 
 div.intro, .fullscreen {
   height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
+  -webkit-animation-name: fadeIn2;
   animation-name: fadeIn2;
+  -webkit-animation-duration: 1s;
   animation-duration: 1s;
+  -webkit-animation-delay: .6s;
   animation-delay: .6s;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 
 .intro .content img {
   width: 3vw;
+  -webkit-animation-name: float;
   animation-name: float;
+  -webkit-animation-duration: 2s;
   animation-duration: 2s;
+  -webkit-animation-delay: .6s;
   animation-delay: .6s;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
   padding-top: 10px;
 }
@@ -183,6 +204,8 @@ div.about h1 {
 }
 
 .sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   border-bottom: solid 2px #ff675d;
   padding-bottom: 10px;
@@ -209,21 +232,25 @@ input:focus {
 
 .arrow img {
   width: 3vw;
+  -webkit-animation-name: float;
   animation-name: float;
+  -webkit-animation-duration: 2s;
   animation-duration: 2s;
+  -webkit-animation-delay: .6s;
   animation-delay: .6s;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
   margin-left: 40px;
 }
 
-.subscribe {
-
-}
+.subscribe {}
 
 .subscribe nav a {
-  font-family: "proxima-nova",sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 18px;
   color: #ff675d;
   text-decoration: none;
@@ -236,7 +263,11 @@ input:focus {
 }
 
 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: top;
+  -ms-flex-align: top;
   align-items: top;
 }
 
@@ -251,22 +282,32 @@ input:focus {
 
 footer {
   margin: 150px 75px 0px 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: fixed;
   bottom: 10px;
   left: 0;
   right: 0;
+  -webkit-animation-name: fadeIn4;
   animation-name: fadeIn4;
+  -webkit-animation-duration: 1s;
   animation-duration: 1s;
+  -webkit-animation-delay: .6s;
   animation-delay: .6s;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 
 footer nav a {
-  font-family: "proxima-nova",sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 16px;
   color: #ff675d;
   text-decoration: none;
@@ -279,15 +320,12 @@ footer nav a {
     margin-left: 35px;
     margin-right: 35px;
   }
-
   header h1 img {
     width: 200px;
   }
-
   h1 {
-   font-size: 4.5vw;
+    font-size: 4.5vw;
   }
-
   header nav a {
     font-size: 14px;
     color: #ffffff;
@@ -296,45 +334,32 @@ footer nav a {
     border-radius: 4px;
     text-decoration: none;
   }
-
   .intro .content p {
     width: 100%;
   }
-
   .container {
     margin: 0 35px;
   }
-
-  .services,
-  .benefits {
+  .services, .benefits {
     display: inline;
   }
-
   .contact {
     display: inline;
   }
-
-  .about,
-  .list {
+  .about, .list {
     width: 100%;
   }
-
   .list {
     margin: 0;
   }
-
   .arrow img {
     width: 40px;
-}
-
+  }
   footer {
     margin-left: 35px;
     margin-right: 35px;
   }
-
 }
-
-
 
 /**Iphone**/
 
@@ -343,7 +368,6 @@ footer nav a {
     font-size: 15px;
     line-height: 1.5;
   }
-
   header {
     position: fixed;
     top: 15px;
@@ -360,71 +384,57 @@ footer nav a {
     animation-fill-mode: forwards;
     z-index: 3;
   }
-
   header h1 img {
     width: 125px;
   }
-
   header nav a {
     display: none;
   }
-
   h1 {
     font-size: 24.5px;
     line-height: 1em;
     width: 80%;
     text-align: left;
   }
-
   h2 {
     font-size: 22px;
   }
-
   h3 {
     font-size: 18px;
     margin-bottom: 10px;
   }
-
   h4 {
     font-size: 18px;
     margin-bottom: 10px;
   }
-
   p {
-    font-family: "proxima-nova",sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-size: 16px;
     color: #ff675d;
   }
-
   p br {
     display: none;
   }
-
   .content {
     padding: 0px 25px;
     width: 90%
   }
-
   .intro {
     margin: 0;
   }
-
   .intro .content p {
     width: 100%;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-}
-
+  }
   .intro .content img {
     width: 10vw;
   }
-
   .services {
     display: inline;
     width: 80%;
   }
-
   .container {
     margin-left: 25px;
     margin-right: 25px;
@@ -442,65 +452,43 @@ footer nav a {
   .subscribe {
     width: 100%;
   }
-
   .arrow img {
     width: 10vw;
     bottom: 50px;
     left: 45vw;
   }
-
   .contact {
     display: inline;
   }
-
   .about {
     width: 100%;
   }
-
   p {
     margin-top: 10px;
   }
-
   .tittle {
     margin-top: 40px;
     margin-bottom: 20px;
   }
-
-  .benefits,
-  .services {
+  .benefits, .services {
     display: inline;
   }
-
   .benefits {
     width: 100%;
   }
-
-  .one,
-  .two,
-  .three,
-  .four {
+  .one, .two, .three, .four {
     width: 100%;
   }
-
-  .legal,
-  .questions {
+  .legal, .questions {
     display: none
   }
-
   .about {
     display: none;
   }
-
   .list {
     margin-left: 0px;
     padding: 0px;
-}
-
-
-
-
-
-
+  }
   footer {
     margin: 0px 25px 0px 25px;
     display: flex;
@@ -516,7 +504,6 @@ footer nav a {
     animation-fill-mode: forwards;
     opacity: 0;
   }
-
   footer nav a {
     font-size: 13.5px;
   }
